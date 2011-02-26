@@ -50,7 +50,7 @@
   var $defaultSettings = {
     'defaultFavicon' : "external.gif",
     'hosts' : [],
-    'debug' : true
+    'debug' : false
   };
 
   $.showfavicons = function( method, options ) {  
