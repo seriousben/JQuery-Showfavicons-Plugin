@@ -9,9 +9,20 @@
  *
  * Usage :
  * <code>
- *   $.showfavicons('external'); // To show external links
- *   $.showfavicons('internal'); // To show internal links
- *   $.showfavicons();          // To show both types of links
+ * To show favicons on external links
+ *  $.showfavicons('external');
+ *  // To show favicons on internal links
+ *  $.showfavicons('internal');
+ *  // To show favicons on both types of links
+ *  $.showfavicons();
+ *  // Ignoring other hostnames on external
+ *  $.showfavicons('external', {hosts : [ 'wiki.bboudreau.ca', 'foo.bboudreau.ca' ] }
+ *  // Adding other hostnames on internal
+ *  $.showfavicons('internal', {hosts : [ 'wiki.bboudreau.ca', 'bar.bboudreau.ca' ] })
+ *  // Ignoring other hostnames on external and setting the default favicon
+ *  $.showfavicons('external', { hosts: [ 'bboudreau.ca' ], defaultFavicon : 'images/external.gif' });
+ *  // Ignoring other hostnames on external and setting the debug flag to see which links are getting a favicon
+ *  $.showfavicons('external', { hosts: [ 'bboudreau.ca' ], debug : true });
  * </code>
  * Options :
  * <code>
