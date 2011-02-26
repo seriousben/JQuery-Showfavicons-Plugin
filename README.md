@@ -3,7 +3,7 @@ A jQuery plugin for displaying a favicon on links. Uses (getFavicon)[http://getf
 
 **Version 1.0 - Feb 26th, 2011**
 
-**Author:** Benjamin Boudreau ([http://bboudreau.ca/](http://bboudreau.ca/))
+**Author:** Benjamin Boudreau ((http://bboudreau.ca/)[http://bboudreau.ca/])
 
 ## Usage :
     // To show external links
