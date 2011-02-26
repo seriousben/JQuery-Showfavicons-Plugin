@@ -33,11 +33,13 @@ Author : Benjamin Boudreau (http://bboudreau.ca/)
     hosts : []                      // Array containing hostnames to include on internal or to exclude on external.
     debug : false                   // Boolean to show which links are getting faviconized.
 
-TODO :
+TODO:
+
 - Support defaultImage of getfavicon by Jason Cartwright
 - Fix getfavicon's bug : Sometimes doesn't get the correct favicon when there are multiple favicons per domain (http://twitter.com/mydogminton/status/2374789273)
 - At first guess it seems that it should get the complete link of the icon instead of adding the icon link to the base url.
 
 Inspired by:
+
 - http://getfavicon.appspot.com/ by Jason Cartwright (https://potato.codebasehq.com/getfavicon/overview)
 - JQuery Faviconize by Samuel Le Morvan (http://www.babylon-design.com/share/faviconize)
