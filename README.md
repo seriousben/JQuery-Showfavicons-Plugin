@@ -32,11 +32,12 @@ A jQuery plugin for displaying a favicon on links. Uses (getFavicon)[http://getf
     hosts : []                      // Array containing hostnames to include on internal or to exclude on external.
     debug : false                   // Boolean to show which links are getting faviconized.
 
-## TODO:
-- Support defaultImage of getfavicon by Jason Cartwright
-- Fix getfavicon's bug : Sometimes doesn't get the correct favicon when there are multiple favicons per domain (http://twitter.com/mydogminton/status/2374789273)
-- At first guess it seems that it should get the complete link of the icon instead of adding the icon link to the base url.
+## Plans
+- Support defaultImage of getFavicon by Jason Cartwright
+- Support the multiple domains feature of getFavicon to overcome the browser connection limits to  [Example creating a random string](http://stackoverflow.com/questions/1349404/generate-a-string-of-5-random-characters-in-javascript)
+- Fix getFavicon's bug : Sometimes doesn't get the correct favicon when there are multiple favicons per domain (http://twitter.com/mydogminton/status/2374789273)
+  - At first guess it seems that it should get the complete link of the icon instead of adding the icon link to the base url.
 
-## Inspired by:
+## Inspired by
 - [getFavicon](http://getfavicon.appspot.com/) by Jason Cartwright [Source](https://potato.codebasehq.com/getfavicon/overview)
 -  [JQuery Faviconize](http://www.babylon-design.com/share/faviconize) by Samuel Le Morvan
