@@ -1,7 +1,7 @@
 # Showfavicons
 A jQuery plugin for displaying a favicon on links. Uses (getFavicon)[http://getfavicon.appspot.com/] to transfer *.ico to *.png.
 
-**Version 1.0 - Feb 26th, 2011**
+**Version 1.1 - August 8th, 2011**
 
 **Author:** Benjamin Boudreau ([http://bboudreau.ca/](http://bboudreau.ca/))
 

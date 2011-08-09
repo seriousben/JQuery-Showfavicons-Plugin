@@ -69,7 +69,7 @@
         $(internalHostList).each(function(index, host) {
           host= $.trim(host);
           if (host.length != 0) {
-            patternString+= "a[href*="+ host +"]" + defaultIgnoredPatternString;
+            patternString+= "a[href*=\""+ host +"\"]" + defaultIgnoredPatternString;
           }
         });        
         
@@ -82,7 +82,7 @@
         $(ignoredHostList).each(function(index, host) {
           host= $.trim(host);
           if (host.length != 0) {
-            patternString+= ":not([href*="+ host +"])";
+            patternString+= ":not([href*=\""+ host +"\"])";
           }
         });
         
