@@ -7,23 +7,23 @@ A jQuery plugin for displaying a favicon on links. Uses [getFavicon](http://getf
 
 ## Usage :
     // To show external links
-    $.showfavicons('external'); 
-    
+    $.showfavicons('external');
+
     // To show internal links
-    $.showfavicons('internal'); 
+    $.showfavicons('internal');
 
     // To show both types of links
-    $.showfavicons();           
-    
+    $.showfavicons();
+
     // Ignoring other hostnames on external
     $.showfavicons('external', {hosts : [ 'wiki.bboudreau.ca', 'foo.bboudreau.ca' ] })
-  
+
     // Adding other hostnames on internal
     $.showfavicons('internal', {hosts : [ 'wiki.bboudreau.ca', 'bar.bboudreau.ca' ] })
-    
+
     // Ignoring other hostnames on external and setting the default favicon
     $.showfavicons('external', { hosts: [ 'bboudreau.ca' ], defaultFavicon : 'images/external.gif' });
-  
+
     // Ignoring other hostnames on external and setting the debug flag to see which links are getting a favicon
     $.showfavicons('external', { hosts: [ 'bboudreau.ca' ], debug : true });
 
@@ -39,5 +39,5 @@ A jQuery plugin for displaying a favicon on links. Uses [getFavicon](http://getf
   - At first guess it seems that it should get the complete link of the icon instead of adding the icon link to the base url.
 
 ## Inspired by
-- [getFavicon](http://getfavicon.appspot.com/) by Jason Cartwright [Source](https://potato.codebasehq.com/getfavicon/overview)
+- [getFavicon](http://getfavicon.appspot.com/) by Jason Cartwright [Source](https://potato.codebasehq.com/getfavicon/overview) [Source](https://github.com/potatolondon/getfavicon)
 -  [JQuery Faviconize](http://www.babylon-design.com/share/faviconize) by Samuel Le Morvan

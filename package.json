@@ -1,0 +1,30 @@
+{
+    "name": "showFavicons",
+    "version": "1.1"
+    "title": "jQuery.showfavicons()",
+    "author": {
+        "name": "Benjamin Boudreau",
+        "url": "http://bboudreau.ca/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "LICENSE"
+        }
+    ],
+    "dependencies": {
+        "jquery": "1.4"
+    },
+    "description": "A jQuery plugin for displaying a favicon on links.",
+    "keywords": [
+        "favicon",
+        "image",
+        "getFavicon",
+        "ico",
+        "png"
+    ],
+    "homepage": "https://github.com/dreur/JQuery-Showfavicons-Plugin",
+    "files": [
+        "jquery.showfavicons.js"
+    ]
+}
