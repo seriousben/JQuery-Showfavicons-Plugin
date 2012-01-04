@@ -1,6 +1,6 @@
 Showfavicons <img src="http://stillmaintained.com/dreur/JQuery-Showfavicons-Plugin.png"/>
-A jQuery plugin for displaying a favicon on links. Uses [getFavicon](http://getfavicon.appspot.com/ "getFavicon") to transfer *.ico to *.png.
 ============
+A jQuery plugin for displaying a favicon on links. Uses [getFavicon](http://getfavicon.appspot.com/ "getFavicon") to transfer *.ico to *.png.
 
 **Version 1.1 - August 8th, 2011**
 
