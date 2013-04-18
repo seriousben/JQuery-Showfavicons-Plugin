@@ -13,7 +13,7 @@
         }
     ],
     "dependencies": {
-        "jquery": "1.4"
+        "jquery": ">=1.4"
     },
     "description": "A jQuery plugin for displaying a favicon on links.",
     "keywords": [
