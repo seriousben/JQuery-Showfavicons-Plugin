@@ -4,6 +4,8 @@ A jQuery plugin for displaying a favicon on links. Uses [getFavicon](http://getf
 
 **Version 1.1 - August 8th, 2011**
 
+As seen on [http://plugins.jquery.com/showfavicons/](the JQuery website)
+
 **Author:** Benjamin Boudreau ([bboudreau.ca/](http://bboudreau.ca/ "Author Homepage"))
 
 ## Usage :
